@@ -10,10 +10,10 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline text-primary tracking-tighter">
-              Hi, I&apos;m a Developer & Designer
+              Hi, I&apos;m an Account / Finance and Human Resources Manager
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I specialize in creating beautiful, functional, and user-centered digital experiences. With a passion for both code and design, I bring ideas to life from concept to launch.
+              I specialize in managing financial operations and human resources to ensure organizational efficiency and growth. With a passion for accuracy and team development, I help businesses thrive.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" variant="accent">
