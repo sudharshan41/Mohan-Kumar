@@ -19,7 +19,7 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 const socialLinks = [
-  { name: "Email", icon: Mail, url: "mailto:hello@example.com" },
+  { name: "Email", icon: Mail, url: "mailto:mohankumarh278@gmail.com" },
   { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/yourprofile" },
   { name: "GitHub", icon: Github, url: "https://github.com/yourprofile" },
   { name: "Instagram", icon: Instagram, url: "https://instagram.com/yourprofile" },
@@ -46,7 +46,7 @@ export default function ContactSection() {
           </div>
           <div className="mt-8">
             <Button asChild size="lg" variant="accent">
-              <a href="mailto:hello@example.com">
+              <a href="mailto:mohankumarh278@gmail.com">
                 Send me an Email
               </a>
             </Button>
