@@ -28,13 +28,12 @@ export default function HeroSection() {
           </div>
           <div className="relative aspect-square rounded-full overflow-hidden shadow-2xl mx-auto w-full max-w-sm lg:max-w-md">
             <Image
-              src="https://placehold.co/600x600.png"
+              src="/pic.jpg"
               alt="Professional photo"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
               priority
-              data-ai-hint="professional portrait"
             />
           </div>
         </div>
