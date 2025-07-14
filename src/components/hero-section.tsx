@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline text-primary tracking-tighter">
-              Hi, I&apos;m an Account / Finance and Human Resources Manager
+              Hi, I&apos;m an MOHAN KUMAR H, HR Recruiter 
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               I specialize in managing financial operations and human resources to ensure organizational efficiency and growth. With a passion for accuracy and team development, I help businesses thrive.
