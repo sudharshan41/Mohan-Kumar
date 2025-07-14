@@ -37,7 +37,7 @@ export default function AboutSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">About Me</h2>
           <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
-            A passionate developer and designer with a knack for creating engaging user experiences.
+            MBA student with hands-on HR and digital marketing experience, skilled in analytics and communication, driven to contribute to organizational success.
           </p>
         </div>
         <div className="grid md:grid-cols-5 gap-8">
