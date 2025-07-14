@@ -13,7 +13,6 @@ const navLinks = [
   { href: "#projects", label: "Projects" },
   { href: "#testimonials", label: "Testimonials" },
   { href: "#contact", label: "Contact" },
-  { href: "/cover-letter-rewriter", label: "AI Rewriter" },
 ];
 
 export default function Header() {
