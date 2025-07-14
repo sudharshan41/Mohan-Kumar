@@ -68,7 +68,7 @@ export default function Header() {
         <div className="flex flex-col gap-4 p-4">
           <Link href="/" className="flex items-center gap-2 mb-4" onClick={() => setIsSheetOpen(false)}>
             <Feather className="w-6 h-6 text-primary" />
-            <span className="font-bold font-headline text-lg">Persona Canvas</span>
+            <span className="font-bold font-headline text-lg">Mohan Gowda</span>
           </Link>
           <nav className="flex flex-col gap-2">
             {isHomePage ? navLinks.map(link => (
@@ -89,7 +89,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
            <Link href="/" className="flex items-center gap-2 mr-6">
             <Feather className="w-6 h-6 text-primary" />
-            <span className="font-bold font-headline text-lg hidden sm:inline-block">Persona Canvas</span>
+            <span className="font-bold font-headline text-lg hidden sm:inline-block">Mohan Gowda</span>
           </Link>
         </div>
         <div className="flex-1 flex items-center justify-end">

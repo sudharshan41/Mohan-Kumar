@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' });
 
 export const metadata: Metadata = {
-  title: 'Persona Canvas',
+  title: 'Mohan Gowda',
   description: 'A personal portfolio website built with Next.js and Firebase.',
 };
 
