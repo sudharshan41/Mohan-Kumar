@@ -43,13 +43,13 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-3 space-y-4 text-base md:text-lg text-foreground/80 leading-relaxed">
             <p>
-              I am a creative and detail-oriented professional with a strong foundation in web development and user interface design. My journey in tech began with a curiosity for how things work, which quickly evolved into a passion for building elegant and efficient solutions to complex problems.
+              I’m Mohan Kumar, currently pursuing my Master of Business Administration at Bengaluru City University, with a strong foundation in commerce and finance from the University of Mysore. My academic journey has been complemented by practical experiences through internships in HR and digital marketing, where I developed skills in recruitment, social media management, SEO, and content creation.
             </p>
             <p>
-              With experience in both frontend and backend technologies, I enjoy bringing ideas to life, from the initial wireframes in Figma to a fully deployed application. I thrive in collaborative environments and am always eager to learn new skills and technologies to stay at the forefront of the industry.
+              I thrive on opportunities to grow and contribute meaningfully to organizations. My skillset spans communication, analytical thinking, project management, and data analytics, including proficiency in Power BI and data visualization.
             </p>
             <p>
-              When I&apos;m not coding, you can find me exploring new hiking trails, experimenting with new recipes in the kitchen, or getting lost in a good book.
+              Outside work, I’m actively involved in social work and love exploring new places, engaging in sports, and participating in community initiatives like NCC, NSS, and the Red Cross. I’m eager to leverage my diverse skills and experiences to make a positive impact in the professional world.
             </p>
           </div>
           <div className="md:col-span-2">
