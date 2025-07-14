@@ -76,7 +76,7 @@ export default function Header() {
             )) : <NavLink href="/" label="Home" isMobile />}
           </nav>
           <Button asChild className="mt-4" variant="accent">
-            <a href="/resume.pdf" download="resume.pdf">Download Resume</a>
+            <a href="/MK@24.pdf" download="MK@24.pdf">Download Resume</a>
           </Button>
         </div>
       </SheetContent>
@@ -99,7 +99,7 @@ export default function Header() {
           </nav>
           <div className="flex items-center gap-2 ml-4">
             <Button asChild variant="accent" size="sm" className="hidden md:inline-flex">
-              <a href="/resume.pdf" download="resume.pdf">Download Resume</a>
+              <a href="/MK@24.pdf" download="MK@24.pdf">Download Resume</a>
             </Button>
             <MobileNav />
           </div>
