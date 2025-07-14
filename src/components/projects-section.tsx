@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Download } from "lucide-react";
 
 const projects = [
   {
@@ -73,6 +73,14 @@ export default function ProjectsSection() {
               </div>
             </Card>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+          <Button asChild size="lg" variant="accent">
+            <a href="/MK@24.pdf" download="MK@24.pdf">
+              <Download className="mr-2 h-5 w-5" />
+              Download Resume
+            </a>
+          </Button>
         </div>
       </div>
     </section>
