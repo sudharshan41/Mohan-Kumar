@@ -22,7 +22,7 @@ const socialLinks = [
   { name: "Email", icon: Mail, url: "mailto:mohankumarh278@gmail.com" },
   { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/mohankumar-h-0279192a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "GitHub", icon: Github, url: "https://github.com/yourprofile" },
-  { name: "Instagram", icon: Instagram, url: "https://instagram.com/yourprofile" },
+  { name: "Instagram", icon: Instagram, url: "https://www.instagram.com/mohan.gowda.dee?igsh=bG9paHExcmVyZWM2" },
   { name: "WhatsApp", icon: WhatsAppIcon, url: "https://wa.me/yournumber" },
 ];
 
