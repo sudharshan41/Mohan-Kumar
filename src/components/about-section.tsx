@@ -1,33 +1,18 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, GitMerge, Figma, Wind, Database, Smartphone } from "lucide-react";
-
-const ReactIcon = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg {...props} viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-cyan-500">
-    <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
-    <g stroke="currentColor" strokeWidth="1" fill="none">
-      <ellipse rx="10" ry="4.5"></ellipse>
-      <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse>
-      <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse>
-    </g>
-  </svg>
-);
-
-const NextJsIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg {...props} viewBox="0 0 128 128" className="w-4 h-4">
-        <path fill="currentColor" d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64 64-28.7 64-64S99.3 0 64 0zm30.6 100.2L65.8 44.4h-7.2v39.2h-9V44.4H42.4V34.6h38.2l26.2 55.6H94.6z"></path>
-    </svg>
-);
+import { Speech, Handshake, BrainCircuit, ClipboardList, PenSquare, ThumbsUp, Search, BarChart, PieChart, AreaChart } from "lucide-react";
 
 const skills = [
-  { name: "React", icon: ReactIcon },
-  { name: "Next.js", icon: NextJsIcon },
-  { name: "TypeScript", icon: Code },
-  { name: "Tailwind CSS", icon: Wind },
-  { name: "Figma", icon: Figma },
-  { name: "Git & GitHub", icon: GitMerge },
-  { name: "SQL & NoSQL", icon: Database },
-  { name: "Responsive Design", icon: Smartphone },
+  { name: "Communication", icon: Speech },
+  { name: "Interpersonal Skills", icon: Handshake },
+  { name: "Analytical Thinking", icon: BrainCircuit },
+  { name: "Project Management", icon: ClipboardList },
+  { name: "Content Creation", icon: PenSquare },
+  { name: "Social Media Management", icon: ThumbsUp },
+  { name: "SEO", icon: Search },
+  { name: "Data Analytics", icon: BarChart },
+  { name: "Data Visualization", icon: PieChart },
+  { name: "Power BI Proficiency", icon: AreaChart },
 ];
 
 export default function AboutSection() {
