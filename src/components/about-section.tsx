@@ -6,8 +6,8 @@ const skills = [
   { name: "Communication", icon: Speech },
   { name: "Interpersonal Skills", icon: Handshake },
   { name: "Analytical Thinking", icon: BrainCircuit },
-  { name: "Project Management", icon: ClipboardList },
-  { name: "Content Creation", icon: PenSquare },
+  { name: "Sourcing", icon: ClipboardList },
+  
   { name: "Social Media Management", icon: ThumbsUp },
   { name: "SEO", icon: Search },
   { name: "Data Analytics", icon: BarChart },
@@ -27,15 +27,7 @@ export default function AboutSection() {
         </div>
         <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-3 space-y-4 text-base md:text-lg text-foreground/80 leading-relaxed">
-            <p>
-              I’m Mohan Kumar, currently pursuing my Master of Business Administration at Bengaluru City University, with a strong foundation in commerce and finance from the University of Mysore. My academic journey has been complemented by practical experiences through internships in HR and digital marketing, where I developed skills in recruitment, social media management, SEO, and content creation.
-            </p>
-            <p>
-              I thrive on opportunities to grow and contribute meaningfully to organizations. My skillset spans communication, analytical thinking, project management, and data analytics, including proficiency in Power BI and data visualization.
-            </p>
-            <p>
-              Outside work, I’m actively involved in social work and love exploring new places, engaging in sports, and participating in community initiatives like NCC, NSS, and the Red Cross. I’m eager to leverage my diverse skills and experiences to make a positive impact in the professional world.
-            </p>
+            
           </div>
           <div className="md:col-span-2">
             <Card>
